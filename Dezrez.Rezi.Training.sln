@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dezrez.Rezi.Training.Api", "Dezrez.Rezi.Training\Dezrez.Rezi.Training.Api.csproj", "{386FC557-BF1C-4AC2-B5C2-BA11D39281AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dezrez.Rezi.Domain", "Dezrez.Rezi.Domain\Dezrez.Rezi.Domain.csproj", "{B356BD64-A2B2-4BBF-A8F5-FA3FA3CDBBB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dezrez.Rezi.DataContracts", "Dezrez.Rezi.DataContracts\Dezrez.Rezi.DataContracts.csproj", "{F99A9A39-C3BC-4793-B844-B63B99CB6037}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dezrez.Rezi.Core", "Dezrez.Rezi.Core\Dezrez.Rezi.Core.csproj", "{E7E267A7-0650-43AB-B176-8F01EAE9AC76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dezrez.Rezi.Services", "Dezrez.Rezi.Services\Dezrez.Rezi.Services.csproj", "{17636A5C-F0A2-4993-B333-619CB0037B32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dezrez.Rezi.Repository", "Dezrez.Rezi.Repository\Dezrez.Rezi.Repository.csproj", "{AFA0AE33-2327-4460-BE20-858A6178E699}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dezrez.Rezi.Abstractions", "Dezrez.Rezi.Abstractions\Dezrez.Rezi.Abstractions.csproj", "{BC8D43DA-E2AD-4272-9A16-DF030DCA6400}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Training", "Training", "{F843D8E3-F366-45B2-BAA9-DD7F69230986}"
+	ProjectSection(SolutionItems) = preProject
+		Dezrez.Rezi.Training\Readme.md = Dezrez.Rezi.Training\Readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tasks", "Tasks", "{74EF131F-315F-4783-9047-4C640EE4A66C}"
+	ProjectSection(SolutionItems) = preProject
+		Task1.md = Task1.md
+		Task2.md = Task2.md
+		Task3.md = Task3.md
+		Task4.md = Task4.md
+		Task5.md = Task5.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{2D30A219-0216-430B-A51F-6424462F10AC}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{386FC557-BF1C-4AC2-B5C2-BA11D39281AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{386FC557-BF1C-4AC2-B5C2-BA11D39281AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{386FC557-BF1C-4AC2-B5C2-BA11D39281AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{386FC557-BF1C-4AC2-B5C2-BA11D39281AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B356BD64-A2B2-4BBF-A8F5-FA3FA3CDBBB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B356BD64-A2B2-4BBF-A8F5-FA3FA3CDBBB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B356BD64-A2B2-4BBF-A8F5-FA3FA3CDBBB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B356BD64-A2B2-4BBF-A8F5-FA3FA3CDBBB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F99A9A39-C3BC-4793-B844-B63B99CB6037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F99A9A39-C3BC-4793-B844-B63B99CB6037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F99A9A39-C3BC-4793-B844-B63B99CB6037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F99A9A39-C3BC-4793-B844-B63B99CB6037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7E267A7-0650-43AB-B176-8F01EAE9AC76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7E267A7-0650-43AB-B176-8F01EAE9AC76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7E267A7-0650-43AB-B176-8F01EAE9AC76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7E267A7-0650-43AB-B176-8F01EAE9AC76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17636A5C-F0A2-4993-B333-619CB0037B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17636A5C-F0A2-4993-B333-619CB0037B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17636A5C-F0A2-4993-B333-619CB0037B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17636A5C-F0A2-4993-B333-619CB0037B32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFA0AE33-2327-4460-BE20-858A6178E699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFA0AE33-2327-4460-BE20-858A6178E699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFA0AE33-2327-4460-BE20-858A6178E699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFA0AE33-2327-4460-BE20-858A6178E699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC8D43DA-E2AD-4272-9A16-DF030DCA6400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC8D43DA-E2AD-4272-9A16-DF030DCA6400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC8D43DA-E2AD-4272-9A16-DF030DCA6400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC8D43DA-E2AD-4272-9A16-DF030DCA6400}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{74EF131F-315F-4783-9047-4C640EE4A66C} = {F843D8E3-F366-45B2-BAA9-DD7F69230986}
+	EndGlobalSection
+EndGlobal
