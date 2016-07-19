@@ -58,8 +58,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Mapping\DataContracts\BaseMapping.cs" />
+    <Compile Include="Mapping\DataContracts\GroupMapping.cs" />
     <Compile Include="Mapping\DataContracts\MappingConfiguration.cs" />
     <Compile Include="Mapping\DataContracts\MappingExtensions.cs" />
+    <Compile Include="Mapping\DataContracts\EventMapping.cs" />
+    <Compile Include="Mapping\DataContracts\RoleMapping.cs" />
     <Compile Include="Mapping\DI\ApiMapping.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

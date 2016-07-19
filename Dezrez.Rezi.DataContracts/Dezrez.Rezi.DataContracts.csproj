@@ -40,9 +40,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseDataContract.cs" />
+    <Compile Include="Events\EventDataContract.cs" />
+    <Compile Include="People\GroupDataContract.cs" />
+    <Compile Include="People\GroupPersonDataContract.cs" />
     <Compile Include="People\PersonDataContract.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Roles\RoleDataContract.cs" />
     <Compile Include="System\ApiErrorDataContract.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dezrez.Rezi.Domain\Dezrez.Rezi.Domain.csproj">
+      <Project>{b356bd64-a2b2-4bbf-a8f5-fa3fa3cdbbb3}</Project>
+      <Name>Dezrez.Rezi.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

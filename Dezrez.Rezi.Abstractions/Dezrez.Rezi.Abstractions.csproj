@@ -53,6 +53,9 @@
     <Compile Include="Repository\IDatabaseConfig.cs" />
     <Compile Include="Repository\IRepository.cs" />
     <Compile Include="Repository\IUnitOfWork.cs" />
+    <Compile Include="Services\IGroupDomainService.cs" />
+    <Compile Include="Services\IRoleDomainService.cs" />
+    <Compile Include="Services\IEventDomainService.cs" />
     <Compile Include="Services\IPersonDomainService.cs" />
   </ItemGroup>
   <ItemGroup>
