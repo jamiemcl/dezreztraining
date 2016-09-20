@@ -11,7 +11,7 @@ using NHibernate.Mapping.ByCode;
 
 namespace Dezrez.Rezi.Repository.Configurations.Mappings
 {
-    public class EventMapping
+    public class EventMappings
     {
         public static void Map(ConventionModelMapper mapper)
         {

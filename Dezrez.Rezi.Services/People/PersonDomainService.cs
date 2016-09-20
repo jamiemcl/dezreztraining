@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using AutoMapper;
 using Dezrez.Rezi.Abstractions.Repository;
 using Dezrez.Rezi.Abstractions.Services;
-using Dezrez.Rezi.DataContracts.People;
+using Dezrez.Rezi.DataContracts.People.Query;
 using Dezrez.Rezi.Domain.People;
 
 namespace Dezrez.Rezi.Services.People

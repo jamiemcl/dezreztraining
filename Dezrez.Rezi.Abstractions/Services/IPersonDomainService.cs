@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Dezrez.Rezi.DataContracts.People;
+using Dezrez.Rezi.DataContracts.People.Query;
 
 namespace Dezrez.Rezi.Abstractions.Services
 {

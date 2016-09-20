@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
-using Dezrez.Rezi.DataContracts.Events;
-using Dezrez.Rezi.DataContracts.Roles;
+using Dezrez.Rezi.DataContracts.Roles.Query;
 
 namespace Dezrez.Rezi.Abstractions.Services
 {

@@ -8,6 +8,7 @@ namespace Dezrez.Rezi.Domain.People
 {
     public class Group : BaseEntity
     {
+        public virtual string Name { get; set; }
         public virtual List<GroupPerson> GroupOfPeople { get; set; }
     }
 }

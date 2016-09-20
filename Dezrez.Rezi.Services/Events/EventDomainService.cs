@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Dezrez.Rezi.Abstractions.Repository;
 using Dezrez.Rezi.Abstractions.Services;
-using Dezrez.Rezi.DataContracts.Events;
+using Dezrez.Rezi.DataContracts.Events.Query;
 using Dezrez.Rezi.Domain.Events;
 
 namespace Dezrez.Rezi.Services.Events

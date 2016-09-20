@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Dezrez.Rezi.DataContracts.Roles;
+using Dezrez.Rezi.DataContracts.Roles.Query;
 using Dezrez.Rezi.Domain.Roles;
 
 namespace Dezrez.Rezi.Core.Mapping.DataContracts
@@ -8,10 +8,7 @@ namespace Dezrez.Rezi.Core.Mapping.DataContracts
     {
         protected override void Configure()
         {
-            CreateMap<Role, RoleDataContract>()
-                .ForMember(dest => dest.Events, opt => opt.MapFrom(src => src.Events));
-            CreateMap<RoleDataContract, Role>()
-                .ForMember(dest => dest.Events, opt => opt.MapFrom(src => src.Events));
+            CreateMap<Role, RoleDataContract>().ReverseMap();
         }
     }
 }

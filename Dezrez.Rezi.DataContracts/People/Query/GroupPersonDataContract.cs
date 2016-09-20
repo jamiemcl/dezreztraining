@@ -5,12 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using Dezrez.Rezi.Domain.People;
 
-namespace Dezrez.Rezi.DataContracts.People
+namespace Dezrez.Rezi.DataContracts.People.Query
 {
-    public class GroupPersonDataContract
+    public class GroupPersonDataContract : BaseDataContract
     {
         public GroupPersonRelationshipType RelationshipType { get; set; }
-        public Group Group { get; set; }
-        public Person Person { get; set; }
+        public GroupDataContract Group { get; set; }
+        public PersonDataContract Person { get; set; }
     }
 }

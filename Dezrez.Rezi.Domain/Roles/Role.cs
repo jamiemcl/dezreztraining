@@ -9,6 +9,6 @@ namespace Dezrez.Rezi.Domain.Roles
 {
     public class Role : BaseEntity
     {
-        public virtual List<Event> Events { get; set; }
+        public virtual IList<Event> Events { get; set; }
     }
 }

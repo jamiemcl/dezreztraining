@@ -1,12 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Web.Http;
-using Dezrez.Rezi.Abstractions.Repository;
 using Dezrez.Rezi.Abstractions.Services;
-using Dezrez.Rezi.DataContracts.People;
+using Dezrez.Rezi.DataContracts.People.Query;
 
 namespace Dezrez.Rezi.Training.Controllers
 {

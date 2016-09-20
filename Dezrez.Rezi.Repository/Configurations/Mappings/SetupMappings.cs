@@ -24,7 +24,8 @@ namespace Dezrez.Rezi.Repository.Configurations.Mappings
             Map(mapper, new IdentityGeneratorDef(), null);
             // Do any other custom mapping changes here if needed.
             // I.E. BaseMapping.Create(mapper);
-
+            EventMappings.Map(mapper);
+            RoleMappings.Map(mapper);
 
             var mapping = mapper.CompileMappingFor(allEntities);
             return mapping;

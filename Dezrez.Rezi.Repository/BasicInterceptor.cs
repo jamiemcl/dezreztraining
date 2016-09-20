@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq.Expressions;
+using Dezrez.Rezi.Domain;
 using NHibernate;
 using NHibernate.Type;
 
@@ -12,6 +13,19 @@ namespace Dezrez.Rezi.Repository
             bool result = base.OnSave(entity, id, state, propertyNames, types);
 
             return result;
+        }
+
+        public override bool OnFlushDirty(object entity, object id, object[] currentState, object[] previousState, string[] propertyNames,
+            IType[] types)
+        {
+            BaseEntity e = entity as BaseEntity;
+
+            if (e is BaseEntity)
+            {
+                
+            }
+
+            return base.OnFlushDirty(entity, id, currentState, previousState, propertyNames, types);
         }
 
         #region Utilities

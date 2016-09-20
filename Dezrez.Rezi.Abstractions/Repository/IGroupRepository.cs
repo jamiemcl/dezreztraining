@@ -5,10 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Dezrez.Rezi.Domain.People;
 
-namespace Dezrez.Rezi.DataContracts.People
+namespace Dezrez.Rezi.Abstractions.Repository
 {
-    public class GroupDataContract
+    public interface IGroupRepository
     {
-        public List<GroupPerson> ListOfPeople { get; set; } 
+        IList<Group> GetAllGroupsByEmail(string email);
     }
 }

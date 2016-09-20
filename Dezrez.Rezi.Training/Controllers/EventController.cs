@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Web.Http;
 using Dezrez.Rezi.Abstractions.Services;
-using Dezrez.Rezi.DataContracts.Events;
+using Dezrez.Rezi.DataContracts.Events.Query;
 
 namespace Dezrez.Rezi.Training.Controllers
 {

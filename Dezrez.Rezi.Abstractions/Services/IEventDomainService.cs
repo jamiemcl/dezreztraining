@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Dezrez.Rezi.DataContracts.Events;
+using Dezrez.Rezi.DataContracts.Events.Query;
 
 namespace Dezrez.Rezi.Abstractions.Services
 {
